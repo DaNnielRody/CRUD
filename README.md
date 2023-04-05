@@ -3,5 +3,6 @@ rodar o json server:
 ```js
 json-server --watch db.json
 ```
-dentro da pasta admin, rodar: 
-browser-sync start --server --file . --host --port 5000 --startPath admin/telas/lista_cliente.html
+fora da pasta admin, rodar o comando: 
+```js 
+browser-sync start --server --file . --host --port 5000 --startPath admin/telas/lista_cliente.html```
